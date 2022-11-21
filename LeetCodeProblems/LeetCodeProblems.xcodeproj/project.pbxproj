@@ -12,6 +12,7 @@
 		1A2F8B08292C3D2000BF539D /* LC724Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B07292C3D2000BF539D /* LC724Tests.swift */; };
 		1A2F8B0C292C3D6200BF539D /* LC205Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0B292C3D6200BF539D /* LC205Tests.swift */; };
 		1A2F8B0E292C3DAD00BF539D /* LC392Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0D292C3DAD00BF539D /* LC392Tests.swift */; };
+		1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0F292C3E2700BF539D /* LC1480.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		1A2F8B07292C3D2000BF539D /* LC724Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC724Tests.swift; sourceTree = "<group>"; };
 		1A2F8B0B292C3D6200BF539D /* LC205Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC205Tests.swift; sourceTree = "<group>"; };
 		1A2F8B0D292C3DAD00BF539D /* LC392Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC392Tests.swift; sourceTree = "<group>"; };
+		1A2F8B0F292C3E2700BF539D /* LC1480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC1480.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		1A2F8B04292C3C6100BF539D /* Day 1 */ = {
 			isa = PBXGroup;
 			children = (
+				1A2F8B0F292C3E2700BF539D /* LC1480.swift */,
 			);
 			path = "Day 1";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				TargetAttributes = {
 					1A2F8AEA292C3ADB00BF539D = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 					1A2F8AF2292C3ADB00BF539D = {
 						CreatedOnToolsVersion = 13.4;
@@ -244,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +396,7 @@
 		1A2F8AFE292C3ADB00BF539D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -412,6 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -419,6 +426,7 @@
 		1A2F8AFF292C3ADB00BF539D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -447,6 +455,7 @@
 		1A2F8B01292C3ADB00BF539D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J85VPLXM2C;
@@ -462,6 +471,7 @@
 		1A2F8B02292C3ADB00BF539D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J85VPLXM2C;

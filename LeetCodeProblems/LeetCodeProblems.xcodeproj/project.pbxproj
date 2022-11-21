@@ -13,6 +13,7 @@
 		1A2F8B0C292C3D6200BF539D /* LC205Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0B292C3D6200BF539D /* LC205Tests.swift */; };
 		1A2F8B0E292C3DAD00BF539D /* LC392Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0D292C3DAD00BF539D /* LC392Tests.swift */; };
 		1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0F292C3E2700BF539D /* LC1480.swift */; };
+		1A2F8B12292C413100BF539D /* LC724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B11292C413100BF539D /* LC724.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		1A2F8B0B292C3D6200BF539D /* LC205Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC205Tests.swift; sourceTree = "<group>"; };
 		1A2F8B0D292C3DAD00BF539D /* LC392Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC392Tests.swift; sourceTree = "<group>"; };
 		1A2F8B0F292C3E2700BF539D /* LC1480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC1480.swift; sourceTree = "<group>"; };
+		1A2F8B11292C413100BF539D /* LC724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC724.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				1A2F8B0F292C3E2700BF539D /* LC1480.swift */,
+				1A2F8B11292C413100BF539D /* LC724.swift */,
 			);
 			path = "Day 1";
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2F8B12292C413100BF539D /* LC724.swift in Sources */,
 				1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1A2F8AF4292C3ADB00BF539D /* LeetCodeProblems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2F8AEB292C3ADB00BF539D /* LeetCodeProblems.framework */; };
 		1A2F8AF9292C3ADB00BF539D /* LeetCodeProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8AF8292C3ADB00BF539D /* LeetCodeProblemsTests.swift */; };
-		1A2F8AFA292C3ADB00BF539D /* LeetCodeProblems.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2F8AEE292C3ADB00BF539D /* LeetCodeProblems.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		1A2F8AEB292C3ADB00BF539D /* LeetCodeProblems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCodeProblems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A2F8AEE292C3ADB00BF539D /* LeetCodeProblems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeProblems.h; sourceTree = "<group>"; };
 		1A2F8AF3292C3ADB00BF539D /* LeetCodeProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeProblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2F8AF8292C3ADB00BF539D /* LeetCodeProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeProblemsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 		1A2F8AED292C3ADB00BF539D /* LeetCodeProblems */ = {
 			isa = PBXGroup;
 			children = (
-				1A2F8AEE292C3ADB00BF539D /* LeetCodeProblems.h */,
 			);
 			path = LeetCodeProblems;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2F8AFA292C3ADB00BF539D /* LeetCodeProblems.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@
 		1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B0F292C3E2700BF539D /* LC1480.swift */; };
 		1A2F8B12292C413100BF539D /* LC724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B11292C413100BF539D /* LC724.swift */; };
 		1A2F8B14292CFA0100BF539D /* LC205.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B13292CFA0100BF539D /* LC205.swift */; };
+		1A2F8B16292E517800BF539D /* LC392.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F8B15292E517800BF539D /* LC392.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		1A2F8B0F292C3E2700BF539D /* LC1480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC1480.swift; sourceTree = "<group>"; };
 		1A2F8B11292C413100BF539D /* LC724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC724.swift; sourceTree = "<group>"; };
 		1A2F8B13292CFA0100BF539D /* LC205.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC205.swift; sourceTree = "<group>"; };
+		1A2F8B15292E517800BF539D /* LC392.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC392.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				1A2F8B13292CFA0100BF539D /* LC205.swift */,
+				1A2F8B15292E517800BF539D /* LC392.swift */,
 			);
 			path = "Day 2";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				1A2F8B12292C413100BF539D /* LC724.swift in Sources */,
 				1A2F8B14292CFA0100BF539D /* LC205.swift in Sources */,
 				1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */,
+				1A2F8B16292E517800BF539D /* LC392.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

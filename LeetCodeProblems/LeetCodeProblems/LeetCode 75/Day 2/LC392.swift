@@ -25,13 +25,14 @@ public class LC392 {
         var sPointer = 0
         var tPointer = 0
         
-        let sCount = s.count
-        let tCount = t.count
+        let sArray = s.map { $0.unicodeScalars }
+        let tArray = t.map { $0.unicodeScalars }
+        
+        let sCount = sArray.count
+        let tCount = tArray.count
+        
         while sPointer < sCount && tPointer < tCount {
-            let sIndex = s.index(s.startIndex, offsetBy: sPointer)
-            let tIndex = t.index(t.startIndex, offsetBy: tPointer)
-            
-            if s[sIndex] == t[tIndex] {
+            if areEqual(sChar: sArray[sPointer], tChar: tArray[tPointer]) {
                 sPointer += 1
             }
             
@@ -39,5 +40,9 @@ public class LC392 {
         }
         
         return sPointer == sCount
+    }
+    
+    private func areEqual(sChar: String.UnicodeScalarView, tChar: String.UnicodeScalarView) -> Bool {
+        return sChar.description == tChar.description
     }
 }

@@ -50,17 +50,4 @@ class LC21Tests: XCTestCase {
         let result = LC21().mergeTwoLists(list1, list2)
         XCTAssertEqual(result, makeListNode(from: [0]))
     }
-    
-    // MARK: - Helpers
-    private func makeListNode(from array: [Int]) -> ListNode? {
-        guard !array.isEmpty else { return nil }
-        
-        var head: ListNode?
-        
-        for element in array.reversed() {
-            head = ListNode(element, head)
-        }
-        
-        return head
-    }
 }

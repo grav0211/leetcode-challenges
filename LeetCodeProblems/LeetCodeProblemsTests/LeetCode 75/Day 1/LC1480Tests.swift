@@ -29,24 +29,49 @@ import LeetCodeProblems
 
 class LC1480Tests: XCTestCase {
     
-    func testRunningSumOfExample1() {
+    // MARK: - Solution 1
+    
+    func testRunningSumS1OfExample1() {
         let nums = [1,2,3,4]
         
-        let result = LC1480().runningSum(nums)
+        let result = LC1480().runningSumS1(nums)
         XCTAssertEqual(result, [1,3,6,10])
     }
     
-    func testRunningSumOfExample2() {
+    func testRunningSumS1OfExample2() {
         let nums = [1,1,1,1,1]
         
-        let result = LC1480().runningSum(nums)
+        let result = LC1480().runningSumS1(nums)
         XCTAssertEqual(result, [1,2,3,4,5])
     }
     
-    func testRunningSumOfExample3() {
+    func testRunningSumS1OfExample3() {
         let nums = [3,1,2,10,1]
         
-        let result = LC1480().runningSum(nums)
+        let result = LC1480().runningSumS1(nums)
+        XCTAssertEqual(result, [3,4,6,16,17])
+    }
+    
+    // MARK: - Solution 2
+    
+    func testRunningSumS2OfExample1() {
+        let nums = [1,2,3,4]
+        
+        let result = LC1480().runningSumS2(nums)
+        XCTAssertEqual(result, [1,3,6,10])
+    }
+    
+    func testRunningSumS2OfExample2() {
+        let nums = [1,1,1,1,1]
+        
+        let result = LC1480().runningSumS2(nums)
+        XCTAssertEqual(result, [1,2,3,4,5])
+    }
+    
+    func testRunningSumS2OfExample3() {
+        let nums = [3,1,2,10,1]
+        
+        let result = LC1480().runningSumS2(nums)
         XCTAssertEqual(result, [3,4,6,16,17])
     }
 }

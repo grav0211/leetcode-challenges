@@ -21,7 +21,7 @@ import Foundation
 public class LC1480 {
     public init() {}
     
-    public func runningSum(_ nums: [Int]) -> [Int] {
+    public func runningSumS1(_ nums: [Int]) -> [Int] {
         var totalSum = nums.reduce(0, +)
         var runningSumArray = [Int]()
         for i in stride(from: nums.count - 1, through: 0, by: -1) {
@@ -30,5 +30,13 @@ public class LC1480 {
         }
         
         return runningSumArray
+    }
+    
+    public func runningSumS2(_ nums: [Int]) -> [Int] {
+        var runningSum = 0
+        return nums.map { num in
+            runningSum += num
+            return runningSum
+        }
     }
 }

@@ -28,6 +28,7 @@ public class ListNode {
     }
 }
 
+// Conforms to Equatable for non-cyclic singly-linked lists.
 extension ListNode: Equatable {
     public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
         guard lhs.val == rhs.val else { return false }

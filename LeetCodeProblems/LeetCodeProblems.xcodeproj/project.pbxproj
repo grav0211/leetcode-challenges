@@ -22,6 +22,8 @@
 		1A3D0A972933F32F00889341 /* LC206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0A962933F32F00889341 /* LC206.swift */; };
 		1A3D0A992933F38200889341 /* LC206Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0A982933F38200889341 /* LC206Tests.swift */; };
 		1A3D0A9D2933F46700889341 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0A9C2933F46700889341 /* Helpers.swift */; };
+		1ABB052A293D00DD008E2314 /* LC876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB0529293D00DD008E2314 /* LC876.swift */; };
+		1ABB052E293D01A2008E2314 /* LC876Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB052D293D01A2008E2314 /* LC876Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1A3D0A962933F32F00889341 /* LC206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC206.swift; sourceTree = "<group>"; };
 		1A3D0A982933F38200889341 /* LC206Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC206Tests.swift; sourceTree = "<group>"; };
 		1A3D0A9C2933F46700889341 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		1ABB0529293D00DD008E2314 /* LC876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC876.swift; sourceTree = "<group>"; };
+		1ABB052D293D01A2008E2314 /* LC876Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC876Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				1A2F8B04292C3C6100BF539D /* Day 1 */,
 				1A2F8B05292C3C6C00BF539D /* Day 2 */,
 				1A2F8B172930F5B700BF539D /* Day 3 */,
+				1ABB0528293D00C3008E2314 /* Day 4 */,
+				1A2F8B1A2930F64000BF539D /* Helpers */,
 			);
 			path = "LeetCode 75";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 		1A2F8B06292C3C8C00BF539D /* LeetCode 75 */ = {
 			isa = PBXGroup;
 			children = (
+				1ABB052C293D0153008E2314 /* Helpers */,
 				1A2F8B09292C3D3600BF539D /* Day 1 */,
 				1A2F8B0A292C3D4900BF539D /* Day 2 */,
 				1A2F8B1D2930F70700BF539D /* Day 3 */,
+				1ABB052B293D0146008E2314 /* Day 4 */,
 			);
 			path = "LeetCode 75";
 			sourceTree = "<group>";
@@ -165,7 +173,6 @@
 		1A2F8B172930F5B700BF539D /* Day 3 */ = {
 			isa = PBXGroup;
 			children = (
-				1A2F8B1A2930F64000BF539D /* Helpers */,
 				1A2F8B182930F5CE00BF539D /* LC21.swift */,
 				1A3D0A962933F32F00889341 /* LC206.swift */,
 			);
@@ -185,9 +192,32 @@
 			children = (
 				1A2F8B202930F74F00BF539D /* LC21Tests.swift */,
 				1A3D0A982933F38200889341 /* LC206Tests.swift */,
-				1A3D0A9C2933F46700889341 /* Helpers.swift */,
 			);
 			path = "Day 3";
+			sourceTree = "<group>";
+		};
+		1ABB0528293D00C3008E2314 /* Day 4 */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB0529293D00DD008E2314 /* LC876.swift */,
+			);
+			path = "Day 4";
+			sourceTree = "<group>";
+		};
+		1ABB052B293D0146008E2314 /* Day 4 */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB052D293D01A2008E2314 /* LC876Tests.swift */,
+			);
+			path = "Day 4";
+			sourceTree = "<group>";
+		};
+		1ABB052C293D0153008E2314 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A3D0A9C2933F46700889341 /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +331,7 @@
 			files = (
 				1A2F8B12292C413100BF539D /* LC724.swift in Sources */,
 				1A2F8B14292CFA0100BF539D /* LC205.swift in Sources */,
+				1ABB052A293D00DD008E2314 /* LC876.swift in Sources */,
 				1A2F8B10292C3E2700BF539D /* LC1480.swift in Sources */,
 				1A3D0A972933F32F00889341 /* LC206.swift in Sources */,
 				1A2F8B16292E517800BF539D /* LC392.swift in Sources */,
@@ -315,6 +346,7 @@
 			files = (
 				1A2F8B0C292C3D6200BF539D /* LC205Tests.swift in Sources */,
 				1A2F8B08292C3D2000BF539D /* LC724Tests.swift in Sources */,
+				1ABB052E293D01A2008E2314 /* LC876Tests.swift in Sources */,
 				1A2F8AF9292C3ADB00BF539D /* LC1480Tests.swift in Sources */,
 				1A2F8B212930F74F00BF539D /* LC21Tests.swift in Sources */,
 				1A2F8B0E292C3DAD00BF539D /* LC392Tests.swift in Sources */,
